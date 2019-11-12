@@ -25,7 +25,7 @@ class account(db.Model):
 
 @app.route('/',methods=['GET'])
 def hello_world():
-    return jsonify('憨憨你好呀!')
+    return jsonify('hello world!')
 
 #登录
 @app.route('/login',methods=['GET','POST'])
